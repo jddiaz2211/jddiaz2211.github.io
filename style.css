@@ -1,0 +1,141 @@
+body{
+    background-color: #E5E5E5;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Unbounded', cursive;
+    padding: 30px;
+}
+
+.titulo{
+    float: left;
+    margin-left: 10px;
+  
+    font-size: 3em;
+}
+.contenedor_general{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;   
+}
+
+h1{
+    float:left;
+    height: 50px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    font-size: 2em;
+}
+
+
+.encriptador{
+    width: 60%;
+    border: solid 2px black;
+    border-radius: 15px;
+    margin-right: 5%;
+    height: 800px;
+
+}
+
+input{
+    width: 80%;
+    height: 50%;
+    border-radius: 15px;
+    margin: 10px auto;
+    display: flex;
+    text-align: center;
+    font-size: 2em;
+    border: none;
+    outline: none;
+}
+
+
+.encabezado{
+    height: 100px;
+}
+
+.logo{
+    height:80%;
+    border-radius: 10px;
+    margin: 10px;
+    float: left;
+}
+
+.traduccion{
+    width: 30%;
+    border-radius: 15px;
+    background-color: white;
+    float: inherit;
+    height: 800px;
+
+}
+
+.area_botones{
+    width: 50%;
+    gap: 30px;
+    margin: 50px auto;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.boton_1{
+    height: 50px;
+    width: 330px;
+    border-radius: 20px;
+    background-color: #0A3871;
+    color: white;
+    border: none;
+}
+.boton_2{
+    height: 50px;
+    width: 330px;
+    border-radius: 20px;
+    background-color: #D8DFE8;
+    border: 2px  solid #0A3871;
+    color: #0A3871 ;
+
+}
+
+h2{
+   text-align: center;  
+    margin: 30px auto;
+}
+
+
+
+#resultado{
+    text-align: center;
+    padding: 5%;
+    width: 90%;
+    
+    
+}
+
+#imagen-texto{
+    margin: 20% 5%;
+    width: 90%
+
+}  
+
+#mensaje-codificado{
+    width: 90%;
+    height: auto;
+    box-sizing: border-box;
+    margin : 0 5%;
+    margin-top: 35%;
+    outline: none;
+    display: none;
+    border: none;
+    text-align: center;
+    font-size: 2em;
+    resize: none;
+ 
+}
+
+#copiar-texto{
+    display: block;
+    width: 60%;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 20%;
+    display: none;
+}

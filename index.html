@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Unbounded&display=swap" rel="stylesheet">
+    <title>Challenge 1: Encriptador Alura</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor_general">
+        <div class="encriptador">
+            <div class="encabezado">
+                <img class="logo" src="alura.png" alt="">
+                <h1 >Challenge 1: Encriptador</h1>
+                
+            </div>
+            <input type="text" class="ingresar_texto" id="codigo" placeholder="Ingrese el texto aqui">
+            <h2 class="nota">&#9888; Solo letras minusculas sin acentos</h2>
+
+
+            <div class="area_botones">
+                
+                <button class="boton_1" onclick="encriptar()">Encriptar</button>
+                <button class="boton_2" onclick="desencriptar()">Desencriptar</button>
+            </div>
+
+        </div>
+
+        <div class="traduccion">
+            <img id="imagen-texto" src="no-text.png" alt="">
+            <p id="resultado">Ningun mensaje fue encontrado</p>
+            <textarea  placeholder="Aqui podras ver el texto codificado" name="" id="mensaje-codificado" cols="30" rows="10"></textarea>
+
+            <button id="copiar-texto" class="boton_1" onclick="copiar()">Copiar texto</button>
+
+        </div>
+
+        <div class="pie_pagina"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+    
+
+
+    
+</body>
+</html>
